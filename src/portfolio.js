@@ -1,7 +1,7 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://krishna-sharmaa.github.io/Portfolio',
+  title: 'KS.',
 }
 
 const about = {
@@ -9,40 +9,37 @@ const about = {
   name: 'Krishna Sharma',
   role: 'Front End Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'I am Krishna Sharma, a Front End Engineer with a passion for building responsive and engaging web applications using modern technologies like React and TypeScript. Currently pursuing a degree in Computer Science and Artificial Intelligence, I’m dedicated to continuous learning and creating impactful digital experiences.',
+  resume: 'https://drive.google.com/file/d/1UbHpbGSMgKnsIzBjaHrSSM-RKoxfD2Mb/view?usp=sharing',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/krishnasharma48',
+    github: 'https://github.com/krishna-sharmaa',
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
+  // projects can be added and removed
+  // if there are no projects, the Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'PodNews',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Led the development of a platform enabling users to generate personalized podcasts based on provided prompts. Utilized Ollama2, Flask2, and text-to-speech technology to create an innovative solution bridging content creation and user engagement.',
+    stack: ['Ollama2', 'Flask2', 'Text-to-Speech'],
+    
   },
   {
-    name: 'Project 2',
+    name: 'Touchoptics',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Collaborated with Prof. Rucha Joshi to develop a tactile-based optics kit for visually impaired students. Designed Arduino-based prototypes and tactile diagrams to facilitate understanding of optical concepts, enhancing accessibility and inclusivity in education.',
+    stack: ['Arduino', 'Prototyping', 'Education'],
+    
   },
   {
-    name: 'Project 3',
+    name: 'Home Credit - Credit Risk Model Stability',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Developed a robust machine learning model to predict client loan defaults with little to no credit history, focusing on stability and accuracy over time.',
+    stack: ['Machine Learning', 'Python', 'Data Science'],
+  
   },
 ]
 
@@ -52,20 +49,19 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
+  'Bootstrap',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'TypeScript',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'GitHub',
+  'MATLAB',
+  'SQL',
+  'Python',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'krishna.sharma@plaksha.edu.in',
 }
 
 export { header, about, projects, skills, contact }
