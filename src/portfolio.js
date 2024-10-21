@@ -7,9 +7,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Krishna Sharma',
-  role: 'Front End Engineer',
-  description:
-    'I am Krishna Sharma, a Front End Engineer with a passion for building responsive and engaging web applications using modern technologies like React and TypeScript. Currently pursuing a degree in Computer Science and Artificial Intelligence, I’m dedicated to continuous learning and creating impactful digital experiences.',
+  description: "I’m Krishna Sharma, a tech enthusiast with a passion for solving real-world problems through data-driven insights and innovative solutions. Pursuing a degree in Computer Science and Artificial Intelligence, I’m focused on building impactful experiences that combine technology, user-centric design, and analytical thinking. My goal is to leverage my skills to create meaningful contributions, whether through developing intelligent systems or enhancing product functionality. I'm committed to continuous learning and excited about the endless possibilities at the intersection of technology and innovation.",
   resume: 'https://drive.google.com/file/d/1yPxkOKgmiLYb1PO9NpExhY-nZWfrMD72/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/krishnasharma48',
